@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN" "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D profile='Immersive' version='3.3' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+<head>
+</head>
+<!--Copyright 1998-2019 HUMUSOFT s.r.o. and The MathWorks, Inc.-->
+<Scene>
+<Transform translation='0 0 -10' rotation='0 0 0 0'>
+  <Transform DEF='Plane_Square' >
+    <Transform DEF='plane' >
+      <Shape>
+        <Appearance>
+          <Material diffuseColor='1 1 1'>
+          </Material>
+        </Appearance>
+        <IndexedFaceSet normalIndex='0 0 0 0 -1' coordIndex='0 1 2 3 -1' solid='false'>
+          <Coordinate DEF='Plane_Square_IFS_Coord'  point='-10.0781 10.0781 0 -10.0781 -10.078 0 10.0781 -10.078 0 10.0781 10.0781 0'>
+          </Coordinate>
+          <Normal vector='0 0 1'>
+          </Normal>
+        </IndexedFaceSet>
+      </Shape>
+    </Transform>
+  </Transform>
+</Transform>
+<Transform>
+  <Shape>
+    <Appearance>
+      <Material>
+      </Material>
+    </Appearance>
+    <Sphere>
+    </Sphere>
+  </Shape>
+</Transform>
+<Viewpoint DEF='DefaultViewpoint'  fieldOfView='0.7854' description='DefaultViewpoint' orientation='0 1 0 0.0628318' position='0.3138 0 0'>
+</Viewpoint>
+</Scene>
+</X3D>

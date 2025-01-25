@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN" "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D profile='Immersive' version='3.3' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+<head>
+</head>
+<Scene>
+<WorldInfo title='VR Bouncing Ball' info='"Copyright 1998-2019 HUMUSOFT s.r.o. and The MathWorks, Inc." '>
+</WorldInfo>
+<NavigationInfo type='"EXAMINE" '>
+</NavigationInfo>
+<Viewpoint fieldOfView='0.7854' description='Ball' position='0 5 40'>
+</Viewpoint>
+<Background DEF='Bckg'  groundColor='0.4 1 1' skyColor='0.8 0.8 0.8'>
+</Background>
+<Shape>
+  <Appearance>
+    <Material diffuseColor='0 0 0.8' ambientIntensity='1'>
+    </Material>
+  </Appearance>
+  <IndexedFaceSet coordIndex='3 2 1 0 -1'>
+    <Coordinate point='-3 0 -3 3 0 -3 3 0 3 -3 0 3'>
+    </Coordinate>
+  </IndexedFaceSet>
+</Shape>
+<Transform DEF='Ball'  translation='0 10 0' scale='1.5 1.5 1.5'>
+  <Shape>
+    <Appearance>
+      <Material DEF='Ball_material'  diffuseColor='1 0 0'>
+      </Material>
+    </Appearance>
+    <Sphere>
+    </Sphere>
+  </Shape>
+</Transform>
+</Scene>
+</X3D>
